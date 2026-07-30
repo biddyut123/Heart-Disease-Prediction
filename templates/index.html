@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Heart Disease Prediction</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body class="bg-light">
+
+<div class="container mt-5">
+
+<div class="card shadow p-4">
+
+<h2 class="text-center text-danger mb-4">
+❤️ Heart Disease Prediction
+</h2>
+
+<form action="/predict" method="POST">
+
+<div class="row">
+
+<div class="col-md-6 mb-3">
+<label>Age</label>
+<input
+type="number"
+class="form-control"
+name="age"
+required>
+</div>
+
+<div class="col-md-6 mb-3">
+<label>Sex</label>
+<input
+type="number"
+class="form-control"
+name="sex"
+required>
+</div>
+
+<div class="col-md-6 mb-3">
+<label>Chest Pain</label>
+<input
+type="number"
+class="form-control"
+name="cp"
+required>
+</div>
+
+<div class="col-md-6 mb-3">
+<label>Blood Pressure</label>
+<input
+type="number"
+class="form-control"
+name="trestbps"
+required>
+</div>
+
+<div class="col-md-6 mb-3">
+<label>Cholesterol</label>
+<input
+type="number"
+class="form-control"
+name="chol"
+required>
+</div>
+
+<div class="col-md-6 mb-3">
+<label>FBS</label>
+<input
+type="number"
+class="form-control"
+name="fbs"
+required>
+</div>
+
+<div class="col-md-6 mb-3">
+<label>Rest ECG</label>
+<input
+type="number"
+class="form-control"
+name="restecg"
+required>
+</div>
+
+<div class="col-md-6 mb-3">
+<label>Thalach</label>
+<input
+type="number"
+class="form-control"
+name="thalach"
+required>
+</div>
+
+<div class="col-md-6 mb-3">
+<label>Exang</label>
+<input
+type="number"
+class="form-control"
+name="exang"
+required>
+</div>
+
+<div class="col-md-6 mb-3">
+<label>Oldpeak</label>
+<input
+type="number"
+step="0.1"
+class="form-control"
+name="oldpeak"
+required>
+</div>
+
+<div class="col-md-6 mb-3">
+<label>Slope</label>
+<input
+type="number"
+class="form-control"
+name="slope"
+required>
+</div>
+
+<div class="col-md-6 mb-3">
+<label>CA</label>
+<input
+type="number"
+class="form-control"
+name="ca"
+required>
+</div>
+
+<div class="col-md-6 mb-3">
+<label>Thal</label>
+<input
+type="number"
+class="form-control"
+name="thal"
+required>
+</div>
+
+</div>
+
+<div class="d-grid">
+
+<button class="btn btn-danger btn-lg">
+
+Predict
+
+</button>
+
+</div>
+
+</form>
+
+</div>
+
+</div>
+
+</body>
+
+</html>
