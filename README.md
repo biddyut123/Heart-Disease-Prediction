@@ -62,6 +62,16 @@ Heart-Disease-Prediction/
 
 └── result.html
 
+## 📸 Screenshots
+
+### 🏠 Home Page
+
+![Home Page](screenshots/Screenshot_1.jpg)
+
+### ❤️ Prediction Result
+
+![Prediction Result](screenshots/Screenshot_2.jpg)
+
 ---
 
 ## ⚙️ Installation
