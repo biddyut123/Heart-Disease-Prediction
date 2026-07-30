@@ -72,6 +72,22 @@ Heart-Disease-Prediction/
 
 ![Prediction Result](screenshots/Screenshot_2.jpg)
 
+## 🌐 Live Demo
+
+https://heart-disease-prediction-k9rl.onrender.com
+
+## 📈 Model Performance
+
+- Model: XGBoost Classifier
+- Accuracy: 91%
+
+
+## 📊 Dataset
+
+The model is trained using the Heart Disease dataset containing 13 medical features such as age, cholesterol, chest pain type, blood pressure, etc.
+
+
+
 ---
 
 ## ⚙️ Installation
@@ -130,7 +146,10 @@ Add screenshots of:
 
 ## 👨‍💻 Author
 
-Shahariyar Hossain Biddut
+**Shahariyar Hossain Biddyut**
+
+- GitHub: https://github.com/biddyut123
+-[ LinkedIn:(https://www.linkedin.com/in/hossain-shahariar-4165a1261/)]
 
 ---
 
