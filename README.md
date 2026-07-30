@@ -4,6 +4,13 @@ A Machine Learning web application that predicts the possibility of heart diseas
 
 ---
 
+# ❤️ Heart Disease Prediction
+
+![Python](https://img.shields.io/badge/Python-3.14-blue)
+![Flask](https://img.shields.io/badge/Flask-3.x-black)
+![XGBoost](https://img.shields.io/badge/XGBoost-3.3-green)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
 ## 📌 Project Overview
 
 This project is an end-to-end Machine Learning application that predicts whether a patient is likely to have heart disease based on medical information.
