@@ -4,6 +4,13 @@ A Machine Learning web application that predicts the possibility of heart diseas
 
 ---
 
+# ❤️ Heart Disease Prediction
+
+![Python](https://img.shields.io/badge/Python-3.14-blue)
+![Flask](https://img.shields.io/badge/Flask-3.x-black)
+![XGBoost](https://img.shields.io/badge/XGBoost-3.3-green)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
 ## 📌 Project Overview
 
 This project is an end-to-end Machine Learning application that predicts whether a patient is likely to have heart disease based on medical information.
@@ -72,6 +79,22 @@ Heart-Disease-Prediction/
 
 ![Prediction Result](screenshots/Screenshot_2.jpg)
 
+## 🌐 Live Demo
+
+https://heart-disease-prediction-k9rl.onrender.com
+
+## 📈 Model Performance
+
+- Model: XGBoost Classifier
+- Accuracy: 91%
+
+
+## 📊 Dataset
+
+The model is trained using the Heart Disease dataset containing 13 medical features such as age, cholesterol, chest pain type, blood pressure, etc.
+
+
+
 ---
 
 ## ⚙️ Installation
@@ -130,7 +153,10 @@ Add screenshots of:
 
 ## 👨‍💻 Author
 
-Shahariyar Hossain Biddut
+**Shahariyar Hossain Biddyut**
+
+- GitHub: https://github.com/biddyut123
+-[ LinkedIn:(https://www.linkedin.com/in/hossain-shahariar-4165a1261/)]
 
 ---
 

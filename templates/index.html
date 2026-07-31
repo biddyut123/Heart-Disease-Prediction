@@ -34,12 +34,19 @@ required>
 </div>
 
 <div class="col-md-6 mb-3">
-<label>Sex</label>
-<input
+
+<label>Gender</label>
+<select
 type="number"
 class="form-control"
 name="sex"
 required>
+        <option value="">Select Gender</option>
+        <option value="1">Male</option>
+        <option value="0">Female</option>
+
+    </select>
+
 </div>
 
 <div class="col-md-6 mb-3">
@@ -71,11 +78,14 @@ required>
 
 <div class="col-md-6 mb-3">
 <label>FBS</label>
-<input
-type="number"
-class="form-control"
-name="fbs"
-required>
+<select class="form-select" name="fbs">
+
+<option value="0">Below 120 mg/dl</option>
+
+<option value="1">Above 120 mg/dl</option>
+
+</select>
+
 </div>
 
 <div class="col-md-6 mb-3">
