@@ -72,12 +72,16 @@ def predict():
         probability = model.predict_proba(new_patient)
 
         confidence = round(max(probability[0]) * 100, 2)
+        print("Prediction:", prediction)
+        print("Probability:", probability)
+        print("Confidence:", confidence)
+        
 
         if prediction[0] == 1:
             result = "❤️ Heart Disease Detected"
         else:
             result = "💚 No Heart Disease"
-
+           
         return render_template(
             "result.html",
             prediction=result,
