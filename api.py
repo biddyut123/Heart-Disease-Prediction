@@ -3,12 +3,13 @@ import joblib
 
 app = Flask(__name__)
 
-model = joblib.load("Heart_Attack_Disease_Prediction.pkl")
+model = joblib.load("../feature of ML/Heart_Attack_Disease_Prediction.pkl")
 
 
 @app.route("/")
 def home():
     return render_template("index.html")
+
 
 
 @app.route("/predict", methods=["POST"])
